@@ -2,6 +2,13 @@
 MiRNA-drug sensitivity prediction by variational graph auto-encoders and collaborative matrix factorization.
 
 The programs is supported by Python 3.6 . 
+
+## Required Packages
+numpy == 1.19.2
+tensorflow== 1.15.0
+matplotlib == 3.3.4
+scipy == 1.5.2
+scikit-learn == 1.5.1
 # Input
 * miRNA-drug sensitivity association network
 * miRNA-miRNA association network

@@ -1,7 +1,6 @@
 import  numpy as np
 
 
-
 def updating_U ( A, U, V, Sm, lam1, lam2):
     m, n = U.shape
     fenzi = (A.dot(V.T)-lam1*Sm.dot(U))
@@ -23,14 +22,6 @@ def updating_V(A, U, V, Sd, lam2, lam3):
     V_new = (fenzi.dot(fenmu1))
     VV = V_new.T
     return VV
-
-
-
-
-
-
-
-
 
 
 def objective_function(W, A, U, V, lam):
